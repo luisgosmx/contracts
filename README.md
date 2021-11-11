@@ -32,6 +32,9 @@ cd contracts
 ```
 mvn clean install
 ```
+If you don't want to download the entire repository, just havevest.jar and run it in the console.
+
+
 ## Run the harvest
 
 ## NEWS

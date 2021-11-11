@@ -94,14 +94,16 @@ mvn clean install
 
 **Example Sanciones
 ```
+    {
     "defaulter": {
-        "amount": "LIC - Por no notificar a la CNBV dentro del plazo establecido la información relativa al artículo 61",
-        "sumilla": "$0.00",
-        "name": "Amonestación",
-        "id": "SMX1011202116570",
-        "type": "LIC",
-        "resolution number": "Instituciones de Banca Múltiple",
-        "resolution date": "BANCO NACIONAL DE MÉXICO, S.A. INTEGRANTE DEL GRUPO FINANCIERO BANAMEX"
+        "datesanction": "24\/06\/2014",
+        "subsector": "Sociedades operadoras de sociedades de inversión de renta variable e instrumentos de deuda",
+        "sanction": "En séis ocasiones presentó reportes contables que no contaban con la calidad y las caracteristicas exigibles.",
+        "name": "IMPULSORA DE FONDOS BANAMEX, S.A. DE C.V., SOCIEDAD OPERADORA DE FONDOS DE INVERSIÓN, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX",
+        "penalty_fee": "$0.00",
+        "company": "banamex",
+        "id": "SMX1011202117270",
+        "type": "Amonestación"
     }
 }
 ```

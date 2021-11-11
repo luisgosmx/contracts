@@ -39,7 +39,7 @@ mvn clean install
  **command**
  
  `java -jar harvester.jar -newsharvest -namesource XXXX -output XXXX`
- 
+  outpot is the folder where they will be saved
 
 **Ways to get information**
  - **RSS** (Really Simple Syndication) XML format to distribute content on the web.
@@ -47,10 +47,16 @@ mvn clean install
 **newspapers available**
 
 - Reforma (México)  https://www.reforma.com   **_RSS_**            `-namesource reforma`
-- - El Universal (México) https://www.eluniversal.com.mx   **_Web scraping_**       `-namesource eluniversal`
+- El Universal (México) https://www.eluniversal.com.mx   **_Web scraping_**       `-namesource eluniversal`
 
 ## DEFAULTER
 
 **command**
  
- `java -jar harvester.jar -defaulterharvest -name "XXXX" -namesource XXXX -os XXXX -output XXXX`
+ `java -jar harvester.jar -defaulterharvest -name "XXXX" -namesource sancionesmx -os XXXX -output XXXX`
+ 
+ 
+**Pages available**
+
+- Sanciones https://sanciones.cnbv.gob.mx
+

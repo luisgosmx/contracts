@@ -91,7 +91,7 @@ If you don't want to download the entire repository, just havevest.jar and run i
  `java -jar harvester.jar -defaulterharvest -name "XXXX" -namesource sancionesmx -os XXXX -output XXXX`
  
  
-**Pages available**
+**Available pages**
 
 - Sanciones https://sanciones.cnbv.gob.mx
 
